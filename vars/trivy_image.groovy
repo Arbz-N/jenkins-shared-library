@@ -1,3 +1,3 @@
 def call(){
-  print("this is to scan docker image")
+  echo "this is to scan docker image"
 }
