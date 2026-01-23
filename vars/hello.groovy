@@ -1,3 +1,3 @@
 def call() {
-    echo "🎉 Hello from Shared Library!"
+    echo " Hello from Shared Library!"
 }
