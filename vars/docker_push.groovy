@@ -1,5 +1,5 @@
 def call(String Project, String ImageTag, String dockerHubUser) {
-    echo "📤 Pushing ${dockerHubUser}/${Project}:${ImageTag} to DockerHub"
+    echo "Pushing ${dockerHubUser}/${Project}:${ImageTag} to DockerHub"
     
     withCredentials([usernamePassword(
         credentialsId: "dockerHubCred",
